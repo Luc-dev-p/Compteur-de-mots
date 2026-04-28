@@ -1,0 +1,3 @@
+Si tu fais la programmation dans le vide, sache que tu ne peux pas être un bon développeur
+On se contente de ce qui est généré sans toutefois se poser les questions utiles.
+Mieux vaut faire partie de la minorité que de la majorité
