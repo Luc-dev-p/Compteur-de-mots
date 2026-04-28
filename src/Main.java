@@ -5,16 +5,16 @@ public class Main {
 
     public static void main(String[] args) {
 
-        File monFichier = new File("monfichier.txt");
+        File monFishier = new File("monFichier.txt");
         int nombreTotalMots = 0;
 
         try {
 
-            Scanner lecteur = new Scanner(monFichier);
+            Scanner lecture = new Scanner(monFishier);
 
 
-            while (lecteur.hasNextLine()) {
-                String ligne = lecteur.nextLine();
+            while (lecture.hasNextLine()) {
+                String ligne = lecture.nextLine();
 
                 String[] mots = ligne.split(" ");
 
@@ -22,7 +22,7 @@ public class Main {
             }
             System.out.println("Le fichier contient " + nombreTotalMots + " mots.");
 
-            lecteur.close();
+            lecture.close();
         } catch (FileNotFoundException e) {
 
             System.out.println("Erreur : Le fichier est introuvable !");
